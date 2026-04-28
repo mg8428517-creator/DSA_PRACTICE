@@ -46,5 +46,5 @@ int main()
 {
     int arr[] = {10, 20, 30, 40};
     int n = 4;
-    cout << " book allocate is :" << bookallocate(arr, n, 2);
+    cout << " book allocate is :" << bookallocate(arr, n, 3);
 }
