@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+// check if it is possible to allocate the book to m students with mid as the maximum number of pages
 bool Ispossible(int arr[], int n, int m, int mid)
 {
     int studentcount = 1;
@@ -19,6 +20,7 @@ bool Ispossible(int arr[], int n, int m, int mid)
      }
     return true;
 }
+// function to allocate the book to m students such that the maximum number of pages allocated to a student is minimum
 int bookallocate(int arr[], int n, int m)
 {
     int s=0;
